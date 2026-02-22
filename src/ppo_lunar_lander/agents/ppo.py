@@ -7,7 +7,7 @@ import numpy as np
 from typing import List, Tuple, Dict
 from collections import deque
 
-from .networks import ActorCritic
+from ..models.networks import ActorCritic
 
 
 class RolloutBuffer:
